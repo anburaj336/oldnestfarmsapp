@@ -1,4 +1,4 @@
-const stripeSecretKey = "sk_test_51M1RJDB0swFfhpVAHqpw8SEAtG01TrWDeKbDAgeSOM3fGCckrfhGJYvPpAQkIBmhomoMfikIKBk9lwX3jffKgXEV00D0Ajk3Lk";
+const stripeSecretKey = "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";
 const apiVersion = "2023-08-16";
 const stripe = require("stripe")(stripeSecretKey, {
   apiVersion: apiVersion,
